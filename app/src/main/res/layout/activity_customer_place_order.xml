@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    tools:context=".CustomerPlaceOrder">
+
+    <TextView
+        android:id="@+id/place_order_screen_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"
+        android:text="You have chosen to order"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/place_order_screen_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/place_order_screen_text_1"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+      />
+
+    <TextView
+        android:id="@+id/place_order_screen_text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/place_order_screen_text_2"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"
+        android:text="Choose the amount you would like to order"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/place_order_screen_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/place_order_screen_text_3"
+        android:layout_marginTop="50dp"
+        android:inputType="number"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="20sp"
+        android:background="@drawable/buttons"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/place_order_screen_kg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/place_order_screen_amount"
+        android:layout_alignTop="@+id/place_order_screen_text_3"
+        android:layout_marginTop="50dp"
+        android:text="kg"
+        android:textSize="20sp"
+        android:layout_marginRight="20dp"
+        android:gravity="bottom"
+        />
+
+    <TextView
+        android:id="@+id/place_order_screen_text_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/place_order_screen_amount"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"
+        android:text="Choose the amount you are willing to pay"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/place_order_screen_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/place_order_screen_text_4"
+        android:layout_marginTop="50dp"
+        android:inputType="number"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/buttons"
+        android:layout_marginRight="16dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/place_order_screen_rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/place_order_screen_money"
+        android:layout_alignTop="@+id/place_order_screen_text_4"
+        android:layout_marginTop="50dp"
+        android:text="Rs."
+        android:textSize="20sp"
+        android:gravity="bottom"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/place_order_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/place_order_screen_money"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Place order"
+        android:background="@android:color/holo_green_light"
+        android:padding="7dp"
+        android:onClick="order"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

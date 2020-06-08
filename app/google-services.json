@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1027237762408",
+    "firebase_url": "https://agroflo.firebaseio.com",
+    "project_id": "agroflo",
+    "storage_bucket": "agroflo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027237762408:android:ec457ebaf45eebb18f32dd",
+        "android_client_info": {
+          "package_name": "com.example.agroflo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027237762408-kprpt4rlkk7m3h0e3fj873kdpl08k5mn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agroflo",
+            "certificate_hash": "98c0370e5de8b0529d6a2104409e1f4a25d71221"
+          }
+        },
+        {
+          "client_id": "1027237762408-r9dll8em3glrotq34ikcgp8lmuhu09uj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk9gZE8TRBqEQ_KVxvw6pb1-3KTpn3UGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027237762408-r9dll8em3glrotq34ikcgp8lmuhu09uj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerHomeActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Buy New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/slogan_category">
+
+        <ImageView
+            android:id="@+id/arhar"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/arhar"
+            android:background="@drawable/input_design_backup"
+            android:padding="5dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/carrot"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/carrot"
+            android:background="@drawable/input_design_backup"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+
+
+            />
+
+        <ImageView
+            android:id="@+id/tomato"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tomato"
+            android:background="@drawable/input_design_backup"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/linear_category_layout_1">
+
+        <ImageView
+            android:id="@+id/onion"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/onion"
+            android:background="@drawable/input_design_backup"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/capsicum"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/capsicum"
+            android:background="@drawable/input_design_backup"
+            android:padding="5dp"
+
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:id="@+id/corn"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/corn"
+            android:background="@drawable/input_design_backup"
+            android:padding="5dp"
+
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+
+        android:layout_below="@+id/linear_category_layout_2">
+
+        <ImageView
+            android:id="@+id/mushroom"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:background="@drawable/input_design_backup"
+            android:padding="5dp"
+            android:src="@drawable/mushroom"/>
+
+        <ImageView
+            android:id="@+id/potato"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/potato"
+            android:background="@drawable/input_design_backup"
+            android:padding="5dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:id="@+id/wheat"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/wheat"
+            android:background="@drawable/input_design_backup"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"/>
+    </LinearLayout>
+</RelativeLayout>
